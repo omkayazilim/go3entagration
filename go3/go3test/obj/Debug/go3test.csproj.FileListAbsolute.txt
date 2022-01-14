@@ -1,0 +1,11 @@
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\bin\Debug\go3test.exe.config
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\bin\Debug\go3test.exe
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\bin\Debug\go3test.pdb
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\bin\Debug\LogoGo3Data.dll
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\bin\Debug\LogoGo3Data.pdb
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\bin\Debug\LogoGo3Data.dll.config
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\obj\Debug\go3test.csprojAssemblyReference.cache
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\obj\Debug\go3test.csproj.CoreCompileInputs.cache
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\obj\Debug\go3test.csproj.CopyComplete
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\obj\Debug\go3test.exe
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\go3test\obj\Debug\go3test.pdb

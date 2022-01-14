@@ -1,0 +1,132 @@
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\EntityFramework.dll
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\EntityFramework.xml
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+C:\Users\orhan.gunes\source\repos\LogoGo3Data\LogoGo3Data\obj\Debug\LogoGo3Data.pdb
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\EntityFramework.dll
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\System.Data.SQLite.Linq.dll
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\EntityFramework.xml
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+D:\GIT\go3\go3 entegrasyon (Crakers)\LogoGo3Data\obj\Debug\LogoGo3Data.pdb
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\EntityFramework.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\EntityFramework.xml
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\LogoGo3Data.pdb
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\Interop.UnityObjects.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.ResolveComReference.cache
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\System.Data.SQLite.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\System.Data.SQLite.EF6.dll
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\System.Data.SQLite.xml
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\System.Data.SQLite.dll.config
+D:\GIT\go3entegrasyon\LogoGo3Data\bin\Debug\Context\Log\Log.db
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\Context\Log\Log.db
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\EntityFramework.dll
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.EF6.dll
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\EntityFramework.xml
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.xml
+D:\GIT\go3\crakers\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll.config
+D:\GIT\go3\crakers\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+D:\GIT\go3\crakers\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.ResolveComReference.cache
+D:\GIT\go3\crakers\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+D:\GIT\go3\crakers\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+D:\GIT\go3\crakers\go3\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+D:\GIT\go3\crakers\go3\LogoGo3Data\obj\Debug\LogoGo3Data.pdb
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\Context\Log\Log.db
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\EntityFramework.dll
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.EF6.dll
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\EntityFramework.xml
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.xml
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll.config
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.ResolveComReference.cache
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\obj\Debug\LogoGo3Data.pdb
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\Config\design.sql
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\Config\design.mdl
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\Config\modelconf.json
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\Config\appconfig.json
+D:\GIT\go3entegrasyon\go3\LogoGo3Data\bin\Debug\Config\SvnConfig.json
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\Config\design.sql
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\Config\modelconf.json
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\Config\appconfig.json
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\Config\design.mdl
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\Config\SvnConfig.json
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\Context\Log\Log.db
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.dll
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.EF6.dll
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.xml
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.xml
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll.config
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.ResolveComReference.cache
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+D:\SVN\go3entegrasyon\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.pdb
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\Config\design.sql
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\Config\modelconf.json
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\Config\appconfig.json
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\Config\design.mdl
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\Config\SvnConfig.json
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\Context\Log\Log.db
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll.config
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\LogoGo3Data.dll
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\LogoGo3Data.pdb
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.dll
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.EF6.dll
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.xml
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.xml
+D:\SVN\go3entegration\go3\LogoGo3Data\bin\Debug\System.Data.SQLite.dll.config
+D:\SVN\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csprojAssemblyReference.cache
+D:\SVN\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.ResolveComReference.cache
+D:\SVN\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CoreCompileInputs.cache
+D:\SVN\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.csproj.CopyComplete
+D:\SVN\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.dll
+D:\SVN\go3entegration\go3\LogoGo3Data\obj\Debug\LogoGo3Data.pdb

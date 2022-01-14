@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://cemasoft.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://cemasoft.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://cemasoft.com/">
+      <s:element name="GETCARIKARTLAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FILTERS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GETCARIKARTLARResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GETCARIKARTLARResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CARIKARTLARARAMA">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FILTERSSEARCH" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CARIKARTLARARAMAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CARIKARTLARARAMAResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENICARIKART">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OBJECTS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENICARIKARTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENICARIKARTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GETSTOKKARTLAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FILTERS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GETSTOKKARTLARResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GETSTOKKARTLARResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="STOKKARTIARAMA">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FILTERSSEARCH" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="STOKKARTIARAMAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="STOKKARTIARAMAResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENISTOKKARTI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OBJECTS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENISTOKKARTIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENISTOKKARTIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GETDEPOLAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FILTERS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GETDEPOLARResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GETDEPOLARResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATIS_IRSALIYESI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATIS_IRSALIYESIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_SATIS_IRSALIYESIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATISTAN_IADE_IRSALIYESI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATISTAN_IADE_IRSALIYESIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_SATISTAN_IADE_IRSALIYESIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALIS_IRSALIYESI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALIS_IRSALIYESIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_ALIS_IRSALIYESIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALISTAN_IADE_IRSALIYESI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALISTAN_IADE_IRSALIYESIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_ALISTAN_IADE_IRSALIYESIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATIS_FATURASI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATIS_FATURASIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_SATIS_FATURASIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATISTAN_IADE_FATURASI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_SATISTAN_IADE_FATURASIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_SATISTAN_IADE_FATURASIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALIS_FATURASI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALIS_FATURASIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_ALIS_FATURASIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALISTAN_IADE_FATURASI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_ALISTAN_IADE_FATURASIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_ALISTAN_IADE_FATURASIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_AMBAR_GIRIS_FISI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_AMBAR_GIRIS_FISIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_AMBAR_GIRIS_FISIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_AMBAR_CIKIS_FISI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_AMBAR_CIKIS_FISIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_AMBAR_CIKIS_FISIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_AMBAR_TRANSFER_FISI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USTBILGILER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KALEMLER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_AMBAR_TRANSFER_FISIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_AMBAR_TRANSFER_FISIResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_KASALAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FILTERS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_KASALARResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GET_KASALARResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_TAHSILAT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TAHSILAT" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENI_TAHSILATResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENI_TAHSILATResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENIDEKONT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSPASS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dekont" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YENIDEKONTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YENIDEKONTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GETCARIKARTLARSoapIn">
+    <wsdl:part name="parameters" element="tns:GETCARIKARTLAR" />
+  </wsdl:message>
+  <wsdl:message name="GETCARIKARTLARSoapOut">
+    <wsdl:part name="parameters" element="tns:GETCARIKARTLARResponse" />
+  </wsdl:message>
+  <wsdl:message name="CARIKARTLARARAMASoapIn">
+    <wsdl:part name="parameters" element="tns:CARIKARTLARARAMA" />
+  </wsdl:message>
+  <wsdl:message name="CARIKARTLARARAMASoapOut">
+    <wsdl:part name="parameters" element="tns:CARIKARTLARARAMAResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENICARIKARTSoapIn">
+    <wsdl:part name="parameters" element="tns:YENICARIKART" />
+  </wsdl:message>
+  <wsdl:message name="YENICARIKARTSoapOut">
+    <wsdl:part name="parameters" element="tns:YENICARIKARTResponse" />
+  </wsdl:message>
+  <wsdl:message name="GETSTOKKARTLARSoapIn">
+    <wsdl:part name="parameters" element="tns:GETSTOKKARTLAR" />
+  </wsdl:message>
+  <wsdl:message name="GETSTOKKARTLARSoapOut">
+    <wsdl:part name="parameters" element="tns:GETSTOKKARTLARResponse" />
+  </wsdl:message>
+  <wsdl:message name="STOKKARTIARAMASoapIn">
+    <wsdl:part name="parameters" element="tns:STOKKARTIARAMA" />
+  </wsdl:message>
+  <wsdl:message name="STOKKARTIARAMASoapOut">
+    <wsdl:part name="parameters" element="tns:STOKKARTIARAMAResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENISTOKKARTISoapIn">
+    <wsdl:part name="parameters" element="tns:YENISTOKKARTI" />
+  </wsdl:message>
+  <wsdl:message name="YENISTOKKARTISoapOut">
+    <wsdl:part name="parameters" element="tns:YENISTOKKARTIResponse" />
+  </wsdl:message>
+  <wsdl:message name="GETDEPOLARSoapIn">
+    <wsdl:part name="parameters" element="tns:GETDEPOLAR" />
+  </wsdl:message>
+  <wsdl:message name="GETDEPOLARSoapOut">
+    <wsdl:part name="parameters" element="tns:GETDEPOLARResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_IRSALIYESISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_SATIS_IRSALIYESI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_IRSALIYESISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_SATIS_IRSALIYESIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_IRSALIYESISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_SATISTAN_IADE_IRSALIYESI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_IRSALIYESISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_SATISTAN_IADE_IRSALIYESIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_IRSALIYESISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_ALIS_IRSALIYESI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_IRSALIYESISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_ALIS_IRSALIYESIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_IRSALIYESISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_ALISTAN_IADE_IRSALIYESI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_IRSALIYESISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_ALISTAN_IADE_IRSALIYESIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_FATURASISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_SATIS_FATURASI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_FATURASISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_SATIS_FATURASIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_FATURASISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_SATISTAN_IADE_FATURASI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_FATURASISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_SATISTAN_IADE_FATURASIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_FATURASISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_ALIS_FATURASI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_FATURASISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_ALIS_FATURASIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_FATURASISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_ALISTAN_IADE_FATURASI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_FATURASISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_ALISTAN_IADE_FATURASIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_GIRIS_FISISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_AMBAR_GIRIS_FISI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_GIRIS_FISISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_AMBAR_GIRIS_FISIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_CIKIS_FISISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_AMBAR_CIKIS_FISI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_CIKIS_FISISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_AMBAR_CIKIS_FISIResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_TRANSFER_FISISoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_AMBAR_TRANSFER_FISI" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_TRANSFER_FISISoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_AMBAR_TRANSFER_FISIResponse" />
+  </wsdl:message>
+  <wsdl:message name="GET_KASALARSoapIn">
+    <wsdl:part name="parameters" element="tns:GET_KASALAR" />
+  </wsdl:message>
+  <wsdl:message name="GET_KASALARSoapOut">
+    <wsdl:part name="parameters" element="tns:GET_KASALARResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENI_TAHSILATSoapIn">
+    <wsdl:part name="parameters" element="tns:YENI_TAHSILAT" />
+  </wsdl:message>
+  <wsdl:message name="YENI_TAHSILATSoapOut">
+    <wsdl:part name="parameters" element="tns:YENI_TAHSILATResponse" />
+  </wsdl:message>
+  <wsdl:message name="YENIDEKONTSoapIn">
+    <wsdl:part name="parameters" element="tns:YENIDEKONT" />
+  </wsdl:message>
+  <wsdl:message name="YENIDEKONTSoapOut">
+    <wsdl:part name="parameters" element="tns:YENIDEKONTResponse" />
+  </wsdl:message>
+  <wsdl:message name="GETCARIKARTLARHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GETCARIKARTLARHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CARIKARTLARARAMAHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERSSEARCH" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CARIKARTLARARAMAHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENICARIKARTHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="OBJECTS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENICARIKARTHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GETSTOKKARTLARHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GETSTOKKARTLARHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="STOKKARTIARAMAHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERSSEARCH" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="STOKKARTIARAMAHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENISTOKKARTIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="OBJECTS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENISTOKKARTIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GETDEPOLARHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GETDEPOLARHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_IRSALIYESIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_IRSALIYESIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_IRSALIYESIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_IRSALIYESIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_IRSALIYESIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_IRSALIYESIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_IRSALIYESIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_IRSALIYESIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_FATURASIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_FATURASIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_FATURASIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_FATURASIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_FATURASIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_FATURASIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_FATURASIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_FATURASIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_GIRIS_FISIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_GIRIS_FISIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_CIKIS_FISIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_CIKIS_FISIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_TRANSFER_FISIHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_TRANSFER_FISIHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GET_KASALARHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GET_KASALARHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_TAHSILATHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="TAHSILAT" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_TAHSILATHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENIDEKONTHttpGetIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="Dekont" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENIDEKONTHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GETCARIKARTLARHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GETCARIKARTLARHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CARIKARTLARARAMAHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERSSEARCH" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CARIKARTLARARAMAHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENICARIKARTHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="OBJECTS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENICARIKARTHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GETSTOKKARTLARHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GETSTOKKARTLARHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="STOKKARTIARAMAHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERSSEARCH" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="STOKKARTIARAMAHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENISTOKKARTIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="OBJECTS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENISTOKKARTIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GETDEPOLARHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GETDEPOLARHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_IRSALIYESIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_IRSALIYESIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_IRSALIYESIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_IRSALIYESIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_IRSALIYESIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_IRSALIYESIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_IRSALIYESIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_IRSALIYESIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_FATURASIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATIS_FATURASIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_FATURASIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_SATISTAN_IADE_FATURASIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_FATURASIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALIS_FATURASIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_FATURASIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_ALISTAN_IADE_FATURASIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_GIRIS_FISIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_GIRIS_FISIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_CIKIS_FISIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_CIKIS_FISIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_TRANSFER_FISIHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="USTBILGILER" type="s:string" />
+    <wsdl:part name="KALEMLER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_AMBAR_TRANSFER_FISIHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GET_KASALARHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="FILTERS" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GET_KASALARHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_TAHSILATHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="TAHSILAT" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENI_TAHSILATHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="YENIDEKONTHttpPostIn">
+    <wsdl:part name="WSPASS" type="s:string" />
+    <wsdl:part name="ConnectionObject" type="s:string" />
+    <wsdl:part name="Dekont" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="YENIDEKONTHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="ObjectSoap">
+    <wsdl:operation name="GETCARIKARTLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cari Kart Listesi Metodu (Metod No 1)</wsdl:documentation>
+      <wsdl:input message="tns:GETCARIKARTLARSoapIn" />
+      <wsdl:output message="tns:GETCARIKARTLARSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cari Kart Listesi Metodu (Metod No 2)</wsdl:documentation>
+      <wsdl:input message="tns:CARIKARTLARARAMASoapIn" />
+      <wsdl:output message="tns:CARIKARTLARARAMASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Cari Kart (Metod No 3)</wsdl:documentation>
+      <wsdl:input message="tns:YENICARIKARTSoapIn" />
+      <wsdl:output message="tns:YENICARIKARTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Stok Kartları Listesi (Metod No 4)</wsdl:documentation>
+      <wsdl:input message="tns:GETSTOKKARTLARSoapIn" />
+      <wsdl:output message="tns:GETSTOKKARTLARSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Stok Kartları Listesi (Metod No 5)</wsdl:documentation>
+      <wsdl:input message="tns:STOKKARTIARAMASoapIn" />
+      <wsdl:output message="tns:STOKKARTIARAMASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Stok Kartı (Metod No 6)</wsdl:documentation>
+      <wsdl:input message="tns:YENISTOKKARTISoapIn" />
+      <wsdl:output message="tns:YENISTOKKARTISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Depo Listesi (Metod No 7)</wsdl:documentation>
+      <wsdl:input message="tns:GETDEPOLARSoapIn" />
+      <wsdl:output message="tns:GETDEPOLARSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satış İrsaliyesi (Metod No 8)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATIS_IRSALIYESISoapIn" />
+      <wsdl:output message="tns:YENI_SATIS_IRSALIYESISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satıştan İade İrsaliyesi (Metod No 9)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATISTAN_IADE_IRSALIYESISoapIn" />
+      <wsdl:output message="tns:YENI_SATISTAN_IADE_IRSALIYESISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alış İrsaliyesi (Metod No 10)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALIS_IRSALIYESISoapIn" />
+      <wsdl:output message="tns:YENI_ALIS_IRSALIYESISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alıştan İade İrsaliyesi (Metod No 10)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALISTAN_IADE_IRSALIYESISoapIn" />
+      <wsdl:output message="tns:YENI_ALISTAN_IADE_IRSALIYESISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satış Faturası (Metod No 12)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATIS_FATURASISoapIn" />
+      <wsdl:output message="tns:YENI_SATIS_FATURASISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satıştan İade Faturası (Metod No 13)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATISTAN_IADE_FATURASISoapIn" />
+      <wsdl:output message="tns:YENI_SATISTAN_IADE_FATURASISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alım Faturası (Metod No 14)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALIS_FATURASISoapIn" />
+      <wsdl:output message="tns:YENI_ALIS_FATURASISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alımdan İade Faturası (Metod No 15)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALISTAN_IADE_FATURASISoapIn" />
+      <wsdl:output message="tns:YENI_ALISTAN_IADE_FATURASISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Ambar Giriş Fişi (Metod No 16)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_GIRIS_FISISoapIn" />
+      <wsdl:output message="tns:YENI_AMBAR_GIRIS_FISISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Ambar Çıkış Fişi (Metod No 17)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_CIKIS_FISISoapIn" />
+      <wsdl:output message="tns:YENI_AMBAR_CIKIS_FISISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Depolar Arası Transfer Fişi (Metod No 18)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_TRANSFER_FISISoapIn" />
+      <wsdl:output message="tns:YENI_AMBAR_TRANSFER_FISISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kasalar Listesi (Metod No 19)</wsdl:documentation>
+      <wsdl:input message="tns:GET_KASALARSoapIn" />
+      <wsdl:output message="tns:GET_KASALARSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Tahsilat İşlemi (Metod No 20)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_TAHSILATSoapIn" />
+      <wsdl:output message="tns:YENI_TAHSILATSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Cari ve Muhasebe  Dekont (Metod No 21)</wsdl:documentation>
+      <wsdl:input message="tns:YENIDEKONTSoapIn" />
+      <wsdl:output message="tns:YENIDEKONTSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ObjectHttpGet">
+    <wsdl:operation name="GETCARIKARTLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cari Kart Listesi Metodu (Metod No 1)</wsdl:documentation>
+      <wsdl:input message="tns:GETCARIKARTLARHttpGetIn" />
+      <wsdl:output message="tns:GETCARIKARTLARHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cari Kart Listesi Metodu (Metod No 2)</wsdl:documentation>
+      <wsdl:input message="tns:CARIKARTLARARAMAHttpGetIn" />
+      <wsdl:output message="tns:CARIKARTLARARAMAHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Cari Kart (Metod No 3)</wsdl:documentation>
+      <wsdl:input message="tns:YENICARIKARTHttpGetIn" />
+      <wsdl:output message="tns:YENICARIKARTHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Stok Kartları Listesi (Metod No 4)</wsdl:documentation>
+      <wsdl:input message="tns:GETSTOKKARTLARHttpGetIn" />
+      <wsdl:output message="tns:GETSTOKKARTLARHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Stok Kartları Listesi (Metod No 5)</wsdl:documentation>
+      <wsdl:input message="tns:STOKKARTIARAMAHttpGetIn" />
+      <wsdl:output message="tns:STOKKARTIARAMAHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Stok Kartı (Metod No 6)</wsdl:documentation>
+      <wsdl:input message="tns:YENISTOKKARTIHttpGetIn" />
+      <wsdl:output message="tns:YENISTOKKARTIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Depo Listesi (Metod No 7)</wsdl:documentation>
+      <wsdl:input message="tns:GETDEPOLARHttpGetIn" />
+      <wsdl:output message="tns:GETDEPOLARHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satış İrsaliyesi (Metod No 8)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATIS_IRSALIYESIHttpGetIn" />
+      <wsdl:output message="tns:YENI_SATIS_IRSALIYESIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satıştan İade İrsaliyesi (Metod No 9)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATISTAN_IADE_IRSALIYESIHttpGetIn" />
+      <wsdl:output message="tns:YENI_SATISTAN_IADE_IRSALIYESIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alış İrsaliyesi (Metod No 10)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALIS_IRSALIYESIHttpGetIn" />
+      <wsdl:output message="tns:YENI_ALIS_IRSALIYESIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alıştan İade İrsaliyesi (Metod No 10)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALISTAN_IADE_IRSALIYESIHttpGetIn" />
+      <wsdl:output message="tns:YENI_ALISTAN_IADE_IRSALIYESIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satış Faturası (Metod No 12)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATIS_FATURASIHttpGetIn" />
+      <wsdl:output message="tns:YENI_SATIS_FATURASIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satıştan İade Faturası (Metod No 13)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATISTAN_IADE_FATURASIHttpGetIn" />
+      <wsdl:output message="tns:YENI_SATISTAN_IADE_FATURASIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alım Faturası (Metod No 14)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALIS_FATURASIHttpGetIn" />
+      <wsdl:output message="tns:YENI_ALIS_FATURASIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alımdan İade Faturası (Metod No 15)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALISTAN_IADE_FATURASIHttpGetIn" />
+      <wsdl:output message="tns:YENI_ALISTAN_IADE_FATURASIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Ambar Giriş Fişi (Metod No 16)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_GIRIS_FISIHttpGetIn" />
+      <wsdl:output message="tns:YENI_AMBAR_GIRIS_FISIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Ambar Çıkış Fişi (Metod No 17)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_CIKIS_FISIHttpGetIn" />
+      <wsdl:output message="tns:YENI_AMBAR_CIKIS_FISIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Depolar Arası Transfer Fişi (Metod No 18)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_TRANSFER_FISIHttpGetIn" />
+      <wsdl:output message="tns:YENI_AMBAR_TRANSFER_FISIHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kasalar Listesi (Metod No 19)</wsdl:documentation>
+      <wsdl:input message="tns:GET_KASALARHttpGetIn" />
+      <wsdl:output message="tns:GET_KASALARHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Tahsilat İşlemi (Metod No 20)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_TAHSILATHttpGetIn" />
+      <wsdl:output message="tns:YENI_TAHSILATHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Cari ve Muhasebe  Dekont (Metod No 21)</wsdl:documentation>
+      <wsdl:input message="tns:YENIDEKONTHttpGetIn" />
+      <wsdl:output message="tns:YENIDEKONTHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ObjectHttpPost">
+    <wsdl:operation name="GETCARIKARTLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cari Kart Listesi Metodu (Metod No 1)</wsdl:documentation>
+      <wsdl:input message="tns:GETCARIKARTLARHttpPostIn" />
+      <wsdl:output message="tns:GETCARIKARTLARHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cari Kart Listesi Metodu (Metod No 2)</wsdl:documentation>
+      <wsdl:input message="tns:CARIKARTLARARAMAHttpPostIn" />
+      <wsdl:output message="tns:CARIKARTLARARAMAHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Cari Kart (Metod No 3)</wsdl:documentation>
+      <wsdl:input message="tns:YENICARIKARTHttpPostIn" />
+      <wsdl:output message="tns:YENICARIKARTHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Stok Kartları Listesi (Metod No 4)</wsdl:documentation>
+      <wsdl:input message="tns:GETSTOKKARTLARHttpPostIn" />
+      <wsdl:output message="tns:GETSTOKKARTLARHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Stok Kartları Listesi (Metod No 5)</wsdl:documentation>
+      <wsdl:input message="tns:STOKKARTIARAMAHttpPostIn" />
+      <wsdl:output message="tns:STOKKARTIARAMAHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Stok Kartı (Metod No 6)</wsdl:documentation>
+      <wsdl:input message="tns:YENISTOKKARTIHttpPostIn" />
+      <wsdl:output message="tns:YENISTOKKARTIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Depo Listesi (Metod No 7)</wsdl:documentation>
+      <wsdl:input message="tns:GETDEPOLARHttpPostIn" />
+      <wsdl:output message="tns:GETDEPOLARHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satış İrsaliyesi (Metod No 8)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATIS_IRSALIYESIHttpPostIn" />
+      <wsdl:output message="tns:YENI_SATIS_IRSALIYESIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satıştan İade İrsaliyesi (Metod No 9)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATISTAN_IADE_IRSALIYESIHttpPostIn" />
+      <wsdl:output message="tns:YENI_SATISTAN_IADE_IRSALIYESIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alış İrsaliyesi (Metod No 10)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALIS_IRSALIYESIHttpPostIn" />
+      <wsdl:output message="tns:YENI_ALIS_IRSALIYESIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alıştan İade İrsaliyesi (Metod No 10)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALISTAN_IADE_IRSALIYESIHttpPostIn" />
+      <wsdl:output message="tns:YENI_ALISTAN_IADE_IRSALIYESIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satış Faturası (Metod No 12)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATIS_FATURASIHttpPostIn" />
+      <wsdl:output message="tns:YENI_SATIS_FATURASIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Satıştan İade Faturası (Metod No 13)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_SATISTAN_IADE_FATURASIHttpPostIn" />
+      <wsdl:output message="tns:YENI_SATISTAN_IADE_FATURASIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alım Faturası (Metod No 14)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALIS_FATURASIHttpPostIn" />
+      <wsdl:output message="tns:YENI_ALIS_FATURASIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Alımdan İade Faturası (Metod No 15)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_ALISTAN_IADE_FATURASIHttpPostIn" />
+      <wsdl:output message="tns:YENI_ALISTAN_IADE_FATURASIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Ambar Giriş Fişi (Metod No 16)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_GIRIS_FISIHttpPostIn" />
+      <wsdl:output message="tns:YENI_AMBAR_GIRIS_FISIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Ambar Çıkış Fişi (Metod No 17)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_CIKIS_FISIHttpPostIn" />
+      <wsdl:output message="tns:YENI_AMBAR_CIKIS_FISIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Depolar Arası Transfer Fişi (Metod No 18)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_AMBAR_TRANSFER_FISIHttpPostIn" />
+      <wsdl:output message="tns:YENI_AMBAR_TRANSFER_FISIHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kasalar Listesi (Metod No 19)</wsdl:documentation>
+      <wsdl:input message="tns:GET_KASALARHttpPostIn" />
+      <wsdl:output message="tns:GET_KASALARHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Tahsilat İşlemi (Metod No 20)</wsdl:documentation>
+      <wsdl:input message="tns:YENI_TAHSILATHttpPostIn" />
+      <wsdl:output message="tns:YENI_TAHSILATHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Yeni Cari ve Muhasebe  Dekont (Metod No 21)</wsdl:documentation>
+      <wsdl:input message="tns:YENIDEKONTHttpPostIn" />
+      <wsdl:output message="tns:YENIDEKONTHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ObjectSoap" type="tns:ObjectSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GETCARIKARTLAR">
+      <soap:operation soapAction="http://cemasoft.com/GETCARIKARTLAR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <soap:operation soapAction="http://cemasoft.com/CARIKARTLARARAMA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <soap:operation soapAction="http://cemasoft.com/YENICARIKART" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <soap:operation soapAction="http://cemasoft.com/GETSTOKKARTLAR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <soap:operation soapAction="http://cemasoft.com/STOKKARTIARAMA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <soap:operation soapAction="http://cemasoft.com/YENISTOKKARTI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <soap:operation soapAction="http://cemasoft.com/GETDEPOLAR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_SATIS_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_SATISTAN_IADE_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_ALIS_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_ALISTAN_IADE_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_SATIS_FATURASI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_SATISTAN_IADE_FATURASI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_ALIS_FATURASI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_ALISTAN_IADE_FATURASI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_AMBAR_GIRIS_FISI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_AMBAR_CIKIS_FISI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <soap:operation soapAction="http://cemasoft.com/YENI_AMBAR_TRANSFER_FISI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <soap:operation soapAction="http://cemasoft.com/GET_KASALAR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <soap:operation soapAction="http://cemasoft.com/YENI_TAHSILAT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <soap:operation soapAction="http://cemasoft.com/YENIDEKONT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ObjectSoap12" type="tns:ObjectSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GETCARIKARTLAR">
+      <soap12:operation soapAction="http://cemasoft.com/GETCARIKARTLAR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <soap12:operation soapAction="http://cemasoft.com/CARIKARTLARARAMA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <soap12:operation soapAction="http://cemasoft.com/YENICARIKART" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <soap12:operation soapAction="http://cemasoft.com/GETSTOKKARTLAR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <soap12:operation soapAction="http://cemasoft.com/STOKKARTIARAMA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <soap12:operation soapAction="http://cemasoft.com/YENISTOKKARTI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <soap12:operation soapAction="http://cemasoft.com/GETDEPOLAR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_SATIS_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_SATISTAN_IADE_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_ALIS_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_ALISTAN_IADE_IRSALIYESI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_SATIS_FATURASI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_SATISTAN_IADE_FATURASI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_ALIS_FATURASI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_ALISTAN_IADE_FATURASI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_AMBAR_GIRIS_FISI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_AMBAR_CIKIS_FISI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_AMBAR_TRANSFER_FISI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <soap12:operation soapAction="http://cemasoft.com/GET_KASALAR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <soap12:operation soapAction="http://cemasoft.com/YENI_TAHSILAT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <soap12:operation soapAction="http://cemasoft.com/YENIDEKONT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ObjectHttpGet" type="tns:ObjectHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GETCARIKARTLAR">
+      <http:operation location="/GETCARIKARTLAR" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <http:operation location="/CARIKARTLARARAMA" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <http:operation location="/YENICARIKART" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <http:operation location="/GETSTOKKARTLAR" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <http:operation location="/STOKKARTIARAMA" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <http:operation location="/YENISTOKKARTI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <http:operation location="/GETDEPOLAR" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <http:operation location="/YENI_SATIS_IRSALIYESI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <http:operation location="/YENI_SATISTAN_IADE_IRSALIYESI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <http:operation location="/YENI_ALIS_IRSALIYESI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <http:operation location="/YENI_ALISTAN_IADE_IRSALIYESI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <http:operation location="/YENI_SATIS_FATURASI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <http:operation location="/YENI_SATISTAN_IADE_FATURASI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <http:operation location="/YENI_ALIS_FATURASI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <http:operation location="/YENI_ALISTAN_IADE_FATURASI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <http:operation location="/YENI_AMBAR_GIRIS_FISI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <http:operation location="/YENI_AMBAR_CIKIS_FISI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <http:operation location="/YENI_AMBAR_TRANSFER_FISI" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <http:operation location="/GET_KASALAR" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <http:operation location="/YENI_TAHSILAT" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <http:operation location="/YENIDEKONT" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ObjectHttpPost" type="tns:ObjectHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GETCARIKARTLAR">
+      <http:operation location="/GETCARIKARTLAR" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CARIKARTLARARAMA">
+      <http:operation location="/CARIKARTLARARAMA" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENICARIKART">
+      <http:operation location="/YENICARIKART" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETSTOKKARTLAR">
+      <http:operation location="/GETSTOKKARTLAR" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STOKKARTIARAMA">
+      <http:operation location="/STOKKARTIARAMA" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENISTOKKARTI">
+      <http:operation location="/YENISTOKKARTI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GETDEPOLAR">
+      <http:operation location="/GETDEPOLAR" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_IRSALIYESI">
+      <http:operation location="/YENI_SATIS_IRSALIYESI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_IRSALIYESI">
+      <http:operation location="/YENI_SATISTAN_IADE_IRSALIYESI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_IRSALIYESI">
+      <http:operation location="/YENI_ALIS_IRSALIYESI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_IRSALIYESI">
+      <http:operation location="/YENI_ALISTAN_IADE_IRSALIYESI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATIS_FATURASI">
+      <http:operation location="/YENI_SATIS_FATURASI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_SATISTAN_IADE_FATURASI">
+      <http:operation location="/YENI_SATISTAN_IADE_FATURASI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALIS_FATURASI">
+      <http:operation location="/YENI_ALIS_FATURASI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_ALISTAN_IADE_FATURASI">
+      <http:operation location="/YENI_ALISTAN_IADE_FATURASI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_GIRIS_FISI">
+      <http:operation location="/YENI_AMBAR_GIRIS_FISI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_CIKIS_FISI">
+      <http:operation location="/YENI_AMBAR_CIKIS_FISI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_AMBAR_TRANSFER_FISI">
+      <http:operation location="/YENI_AMBAR_TRANSFER_FISI" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_KASALAR">
+      <http:operation location="/GET_KASALAR" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENI_TAHSILAT">
+      <http:operation location="/YENI_TAHSILAT" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YENIDEKONT">
+      <http:operation location="/YENIDEKONT" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Object">
+    <wsdl:port name="ObjectSoap" binding="tns:ObjectSoap">
+      <soap:address location="http://78.187.174.112:81/go3ent/Object.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ObjectSoap12" binding="tns:ObjectSoap12">
+      <soap12:address location="http://78.187.174.112:81/go3ent/Object.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ObjectHttpGet" binding="tns:ObjectHttpGet">
+      <http:address location="http://78.187.174.112:81/go3ent/Object.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ObjectHttpPost" binding="tns:ObjectHttpPost">
+      <http:address location="http://78.187.174.112:81/go3ent/Object.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

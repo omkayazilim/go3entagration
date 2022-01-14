@@ -1,0 +1,37 @@
+[
+  {
+    "ModelName": "STLINE",
+    "Type": 2
+  },
+  {
+    "ModelName": "CLCARD",
+    "Type": 1
+  },
+  {
+    "ModelName": "INVOICE",
+    "Type": 2
+  },
+  {
+    "ModelName": "STFICHE",
+    "Type": 2
+  },
+
+
+  {
+    "ModelName": "ITEMS",
+    "Type": 1
+  }
+  ,
+  {
+    "ModelName": "CLFICHE",
+    "Type": 2
+  },
+
+  {
+    "ModelName": "CLFLINE",
+    "Type": 2
+  }
+]
+
+
+
